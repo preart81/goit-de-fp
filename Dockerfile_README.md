@@ -4,11 +4,11 @@
 
 1. Білдимо новий докер:
    ```sh
-   docker build . -f Dockerfile --pull --tag my-image:0.0.1
+   docker build . -f Dockerfile --pull --tag my-image:0.0.2
    ```
 
 2. Інитимо піднімаемо Докер компос:
    ```sh
    docker compose up airflow-init
-   docker compose up
+   docker compose up -d
    ```

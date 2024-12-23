@@ -32,3 +32,15 @@ b) базу даних.
 
 Вигляд вихідних даних має бути приблизно таким:  
 ![alt text](md.media/t_01.png)
+
+## Частина 1. Рішення
+
+0. Створення Kafka-топіків:  
+[p1_0_create_topic.py](p1_0_create_topic.py)
+
+1. Завдання 1-6:  
+[p1_1_data_processor](p1_1_data_processor.py)  
+Скрин таблиці в базі даних з розрахованими середніми значеннями
+![alt text](md.media/p_1_db.png)  
+Скрин даних з Kafa-топіку  
+![alt text](md.media/p_2_kafka.png)
